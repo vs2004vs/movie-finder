@@ -85,12 +85,6 @@ watch(trendingWindow, loadHome);
           >
             View details
           </RouterLink>
-          <RouterLink
-            to="/search"
-            class="rounded-xl px-5 py-3 border border-white/10 text-slate-200 hover:bg-white/5"
-          >
-            Search movies
-          </RouterLink>
         </div>
       </div>
     </div>
@@ -102,6 +96,12 @@ watch(trendingWindow, loadHome);
     <!-- Trending controls -->
     <div class="mt-8 flex items-center justify-between gap-4 flex-wrap">
       <h2 class="text-xl md:text-2xl font-bold text-slate-100">What’s hot now</h2>
+      <RouterLink
+            to="/search"
+            class="rounded-xl px-5 py-3 border border-white/10 text-slate-200 hover:bg-white/5"
+          >
+            Search movies
+          </RouterLink>
 
       <div class="inline-flex rounded-xl border border-white/10 bg-slate-900/40 p-1">
         <button

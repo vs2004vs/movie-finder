@@ -136,9 +136,7 @@ async function onSubmit() {
         </button>
       </div>
 
-      <div v-else class="rounded-2xl border border-white/10 bg-slate-900/30 p-6 text-slate-400">
-        Type a name/title and hit enter to search.
-      </div>
+      
 
       <!-- Load more: keeps results visible -->
       <div v-if="results.length" class="mt-8 flex flex-col items-center gap-2">
